@@ -8,7 +8,7 @@ class State(rx.State):
     pass
 
 def index() -> rx.Component:
-    return rx.vstack(
+    return rx.vstack( 
         navbar(),
         header(),
         links(),

@@ -9,6 +9,7 @@ def navbar() -> rx.Component:
 
         ),
         position="sticky",
+        align="center",
         bg="blue",
         padding_x="16px",
         padding_y="8px",

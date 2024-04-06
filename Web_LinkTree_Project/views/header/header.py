@@ -6,6 +6,7 @@ def header() -> rx.Component:
         rx.text("@gabacame"),
         rx.text("Hola mi nombre es Guillermo Alvarez"),
         rx.text("""Este es un clone de linktree hecho 
-                con el framework de REFLEX con Python puro""")
+                con el framework de REFLEX con Python puro"""),
+                align="center"
 
     )
